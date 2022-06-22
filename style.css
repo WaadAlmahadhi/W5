@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+html {
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+  }
+body
+{
+    background-color: rgb(32, 68, 102);
+}
+a{
+    color: rgb(43, 224, 224);
+}
+@keyframes mymove {
+    from {background-color: rgb(36, 114, 114);}
+    to {background-color: rgb(34, 33, 49);}
+  }
+@keyframes mymove2 {
+    from {background-color: rgb(34, 33, 49);}
+    to {background-color: rgb(103, 183, 137);}
+  }
+.header
+{
+    background-color: rgb(204, 54, 54);
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+.header h1
+{
+    color: rgb(210, 225, 225);
+    padding-top: 20px;
+    margin-left: 15px;
+}
+.row
+{
+    padding: 10px;
+}
+.small-col
+{
+    height: 350px;
+    background-color: rgb(36, 114, 114);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 20px;
+    animation: mymove 5s infinite;
+    
+}
+.big-col
+{
+    width: 81.2%;
+    height: 800px;
+    background-color: rgb(34, 33, 49);
+    color: rgb(210, 225, 225);
+    border-radius: 25px;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding: 40px;
+    overflow: scroll;
+    animation: mymove2 5s infinite;
+}
+.footer
+{
+    background-color: rgb(124, 124, 124);
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+.footer h3
+{
+    color: rgb(210, 225, 225);
+    padding: 20px;
+    margin-left: 15px;
+   
+}
